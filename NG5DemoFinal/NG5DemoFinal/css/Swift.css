@@ -1,0 +1,482 @@
+/*IDS*/
+
+#CC_Fields{
+
+	font-size: 12px;
+	
+}
+
+#PaymentBox{
+	text-align:center;
+
+
+}
+
+
+#CC {
+	width:30%;
+	text-align:left;
+    	float:left;
+}
+
+#CC input{
+	width: 150px;
+
+}
+
+#ctl00_ContentPlaceHolder1_textPAY1_CVV {
+    width: 6.5em;
+}
+
+#CC_Fields{
+	width:600px;
+	margin-left:83px;
+}
+
+#CVV {
+    width: 25%;
+    display: block;
+    float: left;
+    text-align:left;
+}
+
+
+#ExpBox{
+    float: left;
+    margin-left: 5px;
+}
+
+
+#ctl00_ContentPlaceHolder1_txtPAY1_EXPMONTH,#ctl00_ContentPlaceHolder1_txtPAY1_EXPYEAR {
+    width: 80px;
+}
+
+label {
+    letter-spacing: -1px;
+}
+
+#CC_Fields {
+    margin-left: 63px;
+   /* margin-bottom: 35px;*/
+}
+
+/*#RememberCC input {
+    float: left;
+}
+#RememberCC label {
+    text-align: left;
+    display: block;
+  
+}*/
+#RememberCC {
+   /* width: 280px;
+    display: block;
+    float: left;
+    margin-left: 67px;*/
+     
+    display: block;
+   /* width: 59%;*/
+    text-align: left;    
+    margin-bottom : 35px;
+}
+
+#PrivacyCheck {
+   /* display: block;
+    width: 230px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px*/
+      float: left;
+    margin-left: 3px;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#CC_Fields input, .UserData_Fields input {
+    height: 25px;
+    font-size: 1em;
+    border: 1px solid rgb(133,133,133);
+    padding: 3px 1px 2px 3px;
+    border-radius: 0px;
+}
+
+#CC_Fields select {
+    height: 30px;
+    border: 1px solid rgb(133,133,133);
+    border-radius: 0px; /*browser compatibility required*/
+    height: 30px;
+}
+#CC_Fields select option[default] {
+   color: #9EA1AC;
+   font-style:italic;  
+}
+#Privacy{
+   margin-bottom: 25px
+}
+
+/* Modified for visually impaired UI Changes */
+/*
+#Expiry{
+	float:right;
+	width:45%;
+}
+*/
+#Expiry
+{
+    float:left;
+    /*margin:0 45px 0 auto;*/
+    padding:0;
+margin: 0 0 0 5px;
+      
+}
+
+
+#Expiry legend 
+{
+    margin-bottom:1px;    
+}
+
+
+#UserData_Fields, #cvv2{
+	width:600px;
+	margin-left:83px;
+	text-align:left;
+	font-size: 12px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+#UserData_Fields input{
+	width: 250px;
+}
+#cvv2 {
+	margin-bottom: 20px;
+}
+#cvv2 input{
+	width: 3em;
+}
+
+#ContentPlaceHolder1_textPAY1_CVV { 
+	width: 3em;
+
+}
+
+
+#cvv2 A{
+	color:#000000;
+	text-decoration:underline;
+}
+/*--------------------*/
+/* Added by : SSIL Developers*/
+
+.UserData_Fields, .cvv2{
+	width:600px;
+	margin-left:63px;
+	text-align:left;
+	font-size: 12px;
+	/*margin-top: -20px;
+	margin-bottom: -10px;*/
+	margin-bottom: 20px;
+
+
+}
+
+.UserData_Fields A{
+	text-decoration:underline;
+	color:%000000;
+}
+
+.UserData_Fields input{
+	width: 259px;
+}
+
+.UserData_Fields label
+{
+    display:block;
+    }
+
+
+.cvv2 {
+	margin-bottom: 20px;
+}
+.cvv2 input{
+	width: 3em;
+}
+
+.cvv2 A{
+	color:#000000;
+	text-decoration:underline;
+}
+.W_in li{
+	/*background-color:#426B8A;*/
+	width: 23.6%;
+}
+
+
+
+.FreezePaneOff, .InnerFreezePaneContainerOff
+   {
+      visibility: hidden;
+      display: none;
+      position: absolute;
+      top: -100px;
+      left: -100px;
+   }
+
+.FreezePaneOn
+   {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    display: block;
+	background-attachment:scroll;
+	background-color:#999999;
+	background-image:none;
+	background-position:0 0;
+	background-repeat:repeat;
+	opacity:0.5;
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index:1001;
+    width: 100%;
+    height: 150%;   
+    overflow:hidden;
+   }
+ .InnerFreezePaneOn
+   {
+    position: relative;
+    margin:auto;
+    visibility: visible;
+    display: block;
+    -moz-background-clip:border;
+	-moz-background-origin:padding;
+	-moz-background-size:auto auto;
+	/*-moz-border-radius: 15px;
+	border-radius: 15px;*/
+    text-align: left;
+    width: 500px;
+    min-height: 350px;
+	height: auto !important;
+	height: 350px;
+    min-width:500px;
+	text-align: center;
+	padding: .2em 1em .2em 1em;
+	margin: auto;
+	border: 1px solid black;
+	background: #FFF;/**/
+	z-index:1003;
+   }
+
+.tasto {
+ border: 0 none;
+ cursor:pointer;
+ -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ background:#426b8a;
+ background:-moz-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+ background:-o-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+    background:-ms-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+    background:linear-gradient(to bottom, #426b8a 100%, #426b8a 100%);
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+ display:inline-block;
+ color:#ffffff;
+    font-family:Helvetica, Arial;
+ font-size:14px;
+ font-weight:normal;
+ text-decoration:none;
+ line-height: 1.4em;
+ padding: 8px 40px;
+}
+
+#intro{
+text-align:justify;
+margin-bottom:5px;
+padding:1em;
+}
+
+.descri{
+	float:left;
+	width:300px;
+	text-align:justify;
+	margin: 0 1em 1em 1em;
+}
+
+.img{
+	clear:left;
+}
+
+.InnerFreezePaneOn h3 
+{
+  margin:0;
+  text-align:left;
+}
+
+.InnerFreezePaneOn h2 
+{
+    margin:.2em;
+    text-align:left;
+}
+
+.InnerFreezePaneOn h1 
+{
+    text-align:left;
+}
+
+
+#img_VM img, #img_AMX img
+{
+    width:160px;  
+    margin-top:2px;  
+}
+
+#button{
+text-align:center;
+margin: 1em 1em 1em 1em;
+
+}
+
+#Level3 div{
+margin: .8em .8em .8em .8em;
+}
+
+.InnerFreezePaneOff
+   {
+   		display:none;
+   		visibility:hidden;
+   }
+.InnerFreezePaneContainerOn
+    {
+        display:block;
+        position:absolute;
+        top:35px;
+        left:0;
+        vertical-align:middle;
+        z-index:1002; 
+        width:100%;
+        height:100px;  
+    }    
+
+#ctl00_ContentPlaceHolder1_textPAY1_CVV
+{
+   /* width:2.4em;*/
+    }
+
+
+
+.SelectBoxOn, .SelectBoxOff
+    {
+      /*class to handle z-index IE6 bug on SelectBox */
+    }
+.disclaimer{
+    height: 8em;
+    width: 544px;
+}
+
+#ctl00_ContentPlaceHolder1_idprivacypolicy 
+{
+    color:black; 
+    text-decoration:underline; 
+}
+#ctl00_ContentPlaceHolder1_idLinkchkPrivacy
+{
+    color:black; 
+    text-decoration:underline; 
+}
+    
+#InnerPrivacy span  
+{
+    display: block; 
+    height: 340px; 
+    max-height: 340px; 
+    overflow: auto; 
+    text-align:left; 
+}
+
+#closePrivacy 
+{
+    float:right; 
+    font-size:1em; 
+    padding-left:.25em; 
+    padding-right:.22em; 
+    margin-right:-8px; 
+    cursor:pointer; 
+}
+#closePrivacy img { border: 0 none; height: 10px; width: 10px; } 
+#RemenberMe
+{
+    width: 600px;
+    margin-left: 63px;
+}
+
+::-webkit-input-placeholder {
+  color: #9EA1AC;
+   font-style:italic;  
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #9EA1AC;
+   font-style:italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #9EA1AC;
+   font-style:italic;  
+}
+
+:-ms-input-placeholder {  
+  color: #9EA1AC;
+   font-style:italic;   
+}
+
+.placeholder {  
+   color: #9EA1AC;
+   font-style:italic;  
+}
+.greyLabels {
+    color: grey;
+}
+#closePrivacy{
+ display:none;
+}
+#ctl00_ContentPlaceHolder1_chkRememberMe
+{
+ vertical-align:middle;    
+}
+#ctl00_ContentPlaceHolder1_lblhypeHelpContent
+{
+ display:block;
+ margin-top:20px;
+ margin-bottom:20px;
+ text-align:left;
+ min-height:250px; 
+}
+#DCCFieldset div{
+  display :block;
+  text-align:left;
+  width:90%;
+  margin:0 auto;
+  padding:5px;
+}
+
+#DCCFieldset div.bold{
+font-weight:bold;
+}
+
+#DCCFieldset ul{
+list-style:none;
+}
+
+#DCCFieldset label{
+margin-left:10px;
+}
+
+#DCCFieldset input{
+margin-left: -28px;
+}

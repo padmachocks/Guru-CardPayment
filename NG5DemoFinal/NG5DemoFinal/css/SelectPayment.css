@@ -1,0 +1,240 @@
+/* IDS */
+.Smart2PayLink {
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 9px !important;
+    margin-top: -6px;
+    line-height: 25px;
+}
+
+#SOFORT1 img, #YANDEX1 img, #KLARNA1 img{
+    margin-left:5px;
+    height:34px;
+}
+
+#PSelectionBOX{
+	color: #2B617B;
+	font-weight:bold;
+	/*font-size:1.2em;*/
+}
+
+#CCPayment{
+    float: left;
+    height: auto;
+    margin-bottom: -11px;
+    max-width: 280px;
+    min-width: 280px;
+    width: auto;
+}
+
+#CCPayment ul{
+	font-size: 13px;
+	text-align:left;
+	line-height: 43px;
+	margin-bottom: -5px;
+}
+
+
+#OTHPayment ul{
+	font-size: 13px;
+    line-height: 43px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+#Smart2Pay ul{
+	font-size: 13px;
+    line-height: 43px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+#ctl00_ContentPlaceHolder1_OTHPayment_Logos{
+	float:left;
+	text-align:left;
+}
+
+#ctl00_ContentPlaceHolder1_OTHPayment_Logos div {
+    line-height: 20px;
+}
+
+#S2Pay_Logos{
+	float:left;
+	text-align:left;
+}
+
+#S2Pay_Logos div {
+    line-height: 20px;
+}
+
+#S2Pay_Logos img{
+	margin-left:5px;
+}
+
+#MoneyTransferLogo{
+float:left;
+
+}
+
+#ctl00_ContentPlaceHolder1_OTHPayment_Links{
+	float: left;
+    max-width: 285px;
+    width: 285px;
+}
+
+#S2Pay_Links{
+	float: left;
+    max-width: 285px;
+    width: 285px;
+}
+
+#OTHPayment img{
+	/*vertical-align: middle;*/
+}
+
+#GuidCC_Select{
+	text-align:center;
+}
+#GuidCC_Select span{
+	padding: 5px;
+}
+
+
+/* Classes*/
+
+
+.Intro{
+	font-weight:bold;
+}
+
+.Leave{
+	line-height: 8em;
+	/*list-style-image: url(../../images/stop.gif);*/
+	list-style:none outside none;
+	background: url("../../images/stop.gif") no-repeat scroll 0 50% transparent;
+}
+
+.OTHPayment_Logo{
+	float:right;
+
+}
+
+.OTHPayment_Link{
+	float:left;
+}
+
+/* Added by SSILK43*/
+#PSelectionBOX a{
+	color: #2B617B;
+	font-weight:bold;
+}
+
+#PSelectionBOX ul{
+	font-size: 13px;
+    line-height: 43px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+.CCLogosimg{
+	vertical-align: middle;
+	padding-left: .5em;
+	
+}
+
+
+.OTHPaymentimg
+{
+	vertical-align: middle;
+	margin-top: 3px;
+	height:40px;
+}
+
+/*.Smart2Payimg
+{
+	vertical-align: middle;
+	margin-top: 3px;
+	height:40px;
+}*/
+
+
+.CCLogos{
+      float: left;
+    line-height: 43px;
+    /*margin-top: 10px;*/
+    max-width: 430px;
+    text-align: left;
+}
+
+.CCLogos img{
+	vertical-align: middle;
+	padding-left: .5em;
+	
+}
+
+.CCLIST_Descri{
+	text-align:left;
+	display:block;
+	width:auto;
+	padding-left:2em;
+	padding-right:2em;
+	margin-left:38px;
+	width:600px;
+}
+
+
+
+.W_in li{
+	/*background-color:#426B8A;*/
+	width: 18.6%;
+}
+
+.UpLink{
+    color:#FE890E;
+}
+/*
+li.SelectUP{
+	list-style-image:url(../../images/selectSys_Orange.gif);
+}
+li.SelectPay{
+    list-style-image:url(../../images/selectSys.gif);
+}*/
+li.SelectUP{
+	list-style-image:none;
+	background:url(../../images/selectSys_Orange.gif) no-repeat 0 17px;
+	list-style: none inside;
+	line-height: 5px;
+	margin-bottom:15px
+}
+li.SelectPay{
+    list-style-image:none;
+	background:url(../../images/selectSys.gif) no-repeat 0 16px;
+	list-style:none inside;
+}
+
+#PSelectionBOX a{
+	margin-left:15px;
+}
+
+#ctl00_ContentPlaceHolder1_MasterPassImage input{
+    margin-left:15px;
+    width:140px;
+    height:40px;   
+}
+
+#ctl00_ContentPlaceHolder1_CompassImage input{
+   margin-left: 15px;
+    margin-top: -10px;
+}
+
+#ctl00_ContentPlaceHolder1_IdealImage input{
+ margin-left:10px;
+  margin-top:-10px
+}
+#ctl00_ContentPlaceHolder1_HypePaymentImageButton {
+    margin-left: 15px;
+}
+#ctl00_ContentPlaceHolder1_SofortImage input{
+    margin-left: 15px;
+    margin-top: -5px;
+}

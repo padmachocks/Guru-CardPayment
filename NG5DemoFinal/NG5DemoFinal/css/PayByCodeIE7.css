@@ -1,0 +1,26 @@
+/* CSS Document */
+
+#PayByCode_Data DIV{
+	margin-left:0;
+}
+
+#Links DIV {
+	width:auto;
+}
+
+.W_Last_Done {
+	/*width:130px;*/
+	width:280px;
+}
+.W_Next{
+	width:auto;
+	border-right:1px solid #999999;
+}
+.W_LastToDo{
+	width:160px;
+}
+.W_Done{
+	width:240px;
+	border-right:1px solid #6889A1;
+}
+

@@ -1,0 +1,99 @@
+.W_Last_Done {
+	/*width:260px;*/
+	display:inline;
+	/*width:170px;
+	width:24.9%;*/
+}
+
+.W_Done {
+	/*width:260px;*/
+	display:inline;
+	/*width:240px;
+	width:24.9%;*/
+}
+
+.W_Next{
+	/*width:24.9%;
+	width:210px;*/
+	border-right:1px solid #6889A1;
+}
+.W_LastToDo{
+	/*width:130px;
+	width:24.9%;*/
+}
+.W_On{
+
+}
+
+.W_in{
+	overflow:hidden;
+}
+
+.W_all li{
+	width:24.9%;
+}
+
+
+.CC_INPUT, .EmailField, #ctl00_ContentPlaceHolder1_textPAY1_CHNAME  {
+	font-size:14px;
+}
+
+.EmailField {
+}
+
+#CC_INFO{
+	float:left;
+	/*font-size: .9em;*/
+	margin-left: 10px;
+	margin-bottom: -30px;
+	/*Added by SSIL Developer*/
+	text-align: justify;
+}
+
+#CCMaestro, #CCMaster, #CCAmex, #CCDiners, #CCAura, #CCJCB, #CC {
+	margin-left:5px;
+}
+
+#CC_INFO ul{
+	margin-top:10px;
+}
+
+
+.CC_INPUT_M16{
+	width: 3em;
+}
+
+
+
+#ctl00_ContentPlaceHolder1_lblIntro{
+	font-weight:normal;
+}
+
+.descri{
+	width: 250px;
+
+}
+
+.InnerFreezePaneOn h1 {
+	font-weight:bold;
+	margin-top: 5px;
+	font-size:1.5em;
+}
+
+.FreezePaneOn
+
+{
+
+	width: expression(document.body.clientWidth);
+	
+
+}
+
+.InnerFreezePaneOn{
+	margin-left: expression((document.body.clientWidth/2)-250);
+}
+
+#textPAY1_CVV, #lblprivacy
+{
+    line-height:1em;   
+}

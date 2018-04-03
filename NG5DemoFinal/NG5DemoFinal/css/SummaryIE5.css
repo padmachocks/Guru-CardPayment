@@ -1,0 +1,50 @@
+.W_Last_Done {
+	/*width:260px;*/
+	display:inline;
+	/*width:118px;*/
+	width:24.9%;
+	
+	
+}
+
+.W_Done {
+	/*width:260px;*/
+	display:inline;
+	/*width:210px;*/
+	width:24.9%;
+}
+
+.W_On_Final{
+	display:inline;
+	/*width:120px;*/
+	width:24.9%;
+}
+
+
+hr {
+	display: inline;
+	height:0px;
+}
+
+.Summary_Datas span{
+	font-size: 1.1em;
+}
+
+.FreezePaneOn
+
+{   
+	width: expression(document.body.clientWidth);
+   	height:expression(document.body.clientHeight);
+}
+.InnerFreezePaneOn, #InnerFreezePane {
+	width: expression(document.body.clientWidth/3);
+	left:0;
+	margin-left:expression((document.body.clientWidth/2) - 165) ;
+	text-decoration:blink;
+}
+
+#wheel{	
+	display:none;
+	visibility:hidden;
+}
+

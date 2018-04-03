@@ -1,0 +1,60 @@
+.dyf_header,.dyf_main {
+		width:944px!important;
+		margin:0px auto!important;
+		padding:0px 40px!important;	
+	}
+
+	#dyf_logo_sella {
+		/*padding-left:250px!important;*/
+		height: 40px;
+    	width: 180px;
+	}
+	
+	.dyf_spalla {
+		float: left!important;
+		width: 210px!important;
+		margin-right: 22px!important;
+	}
+
+	.dyf_spalla_inner {
+		height: 180px!important;
+	}
+	
+	.dyf_spalla_inner > div {
+		float:none!important;
+		width:100%!important;
+		text-align:left!important;
+	}
+	
+	
+.fancybox-overlay .fancybox-overlay-fixed{
+	background: #FFF !important;
+}
+
+#canvasbox{
+	display:none !important;
+}
+
+
+#ctl00_ContentPlaceHolder1_imgHypeWallet, #ctl00_ContentPlaceHolder1_imgMyBank , #ctl00_ContentPlaceHolder1_imgIdealButton,#imgQIWI1 img, #imgYANDEX1 img , #imgIdeal1 img, #imgALIPAY1 img {
+	width:auto !Important;
+}
+
+#ctl00_ContentPlaceHolder1_imgCompass{
+	height:auto !Important;
+	margin-top:12px;
+}
+
+#imgKLARNA1 img, #ctl00_ContentPlaceHolder1_imgSofortButton, #imgSOFORT1 img{
+	height:auto !Important;
+	margin-top:9px;
+
+}
+
+
+
+#ctl00_ContentPlaceHolder1_imgPaypal{
+	width:175px !Important;
+	height: 58px !Important;
+	margin-top: 9px;
+}

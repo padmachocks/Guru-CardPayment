@@ -1,0 +1,39 @@
+#hidden {
+    visibility: hidden;
+}
+
+#addressBookWidgetDiv {
+  min-width: 300px; 
+ /* width: 400px;  /*width can be removed and the widget will take up all the page width*/
+  max-width: 100%;
+  min-height: 228px; 
+  height: 150px;
+}
+#walletWidgetDiv {
+  min-width: 300px; 
+  /* width: 400px;  /*width can be removed and the widget will take up all the page width*/
+  max-width: 100%;
+  min-height: 228px; 
+  height: 150px;
+}
+			
+/* The following are only required when you use the read-only widgets: */
+#readOnlyAddressBookWidgetDiv {
+  min-width: 266px; 
+  max-width:100%; 
+  height: 165px;
+}
+#readOnlyWalletWidgetDiv {
+  min-width: 266px; 
+  max-width: 100%; 
+  height: 165px;
+}
+#consentWidgetDiv
+{
+    min-width: 300px; 
+    /*width: 400px;  /*width can be removed and the widget will take up all the page width*/
+    max-width: 100%;
+   min-height  : 140px;
+    max-height: 400px;
+      height: 150px;
+}

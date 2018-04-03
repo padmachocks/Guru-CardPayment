@@ -1,0 +1,95 @@
+#ctl00_dyf_scelta_lingua_cont, .dyf_spalla, .dyf_cont_processes, #dyf-torna-al-negozio, #cookieDisclaimer, .cont_icon_print, .dyf_titolo_ricevuta, #ctl00_ContentPlaceHolder1_HypeBanner, #ctl00_ContentPlaceHolder1_HypeBanner2, #scrollAdivce,#IdPdfBtn{
+	display:none;
+}
+
+#ctl00_divblock1
+{
+	float:left;
+    text-align:left;
+    vertical-align: middle;
+}
+
+#ctl00_divblock1 img{
+	max-height: 110px;
+    max-width: 314px;
+    margin-left: 10px;
+}
+
+#ctl00_BancaSellaLogo{
+float:right !important;
+width:auto !important;
+margin: 0 !important;
+padding: 0 !important;
+line-height: 20px;
+text-align:right; 
+
+}
+#ctl00_BancaSellaLogo img{
+	float:right;
+	margin:0;
+	margin-right: 10px;
+}
+
+
+.dyf_cont_metodo{
+	border-bottom:0px;
+}
+
+
+.ErrorMessage {
+    background-color: #FFFFFF !important;
+    background-image: url("../../images/icon_attention.svg");
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    color: #000000 !important;
+}
+
+#dyf_logo_sella
+{/*
+    margin-right:110px;
+    padding-top: 38px;*/
+    content: url("../../images/LOGO_BSE_PAGAM.png");
+
+}
+.dyf_content_inner
+{
+    border-top:0px;
+}
+#scrollAdivce
+{
+    visibility:hidden;
+}
+
+.ErrorMsgHidLbl{
+	background-color: #f4e2d9 !important;
+	color: #f95c3d!important;
+    margin: 0 auto;
+    text-align:center;
+    padding:2em;
+    width:100%;
+    margin-left:80px;
+}
+.SuccessMsgHidlbl
+{
+	background-color: #ddedd1 !important;
+    color: #198e1e !important;
+    margin: 0 auto;
+    text-align:center;
+    padding:2em;
+    width:100%;
+    margin-left:80px;
+
+    /*color: #198e1e!important;margin-left: 150px;text-align:center;*/
+}
+#ctl00_ContentPlaceHolder1_Idsummary
+{
+	display:block;
+	margin: 0 auto;
+    width:100%; 
+	margin-left:110px;
+
+}
+#ctl00_ContentPlaceHolder1_ErrorBox
+{
+    visibility:hidden;
+}

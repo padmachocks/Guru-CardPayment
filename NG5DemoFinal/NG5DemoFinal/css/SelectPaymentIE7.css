@@ -1,0 +1,125 @@
+
+#ActionBox{
+	background-color:white;
+}
+
+#PSelectionBOX{
+	font-size:14px;
+}
+
+#CCPayment {
+	width:auto;
+	max-width:400px;
+}
+
+#CCPayment li{
+line-height: 35px;
+}
+
+
+#CCPayment ul{
+margin-top: 23px;
+margin-bottom:0;
+
+}
+
+#CCPayment ul, #Leave, #OTHPayment_Links li, #CCPayment li{
+list-style-image:none;
+line-height: 35px;
+}
+
+#OTHPayment ul 
+{
+margin-top: 12px;
+    }
+
+
+#OTHPayment_Links{
+	margin-top:-20px;
+	float:left;
+	max-width:;
+    width:45%;
+    /*border:1px solid orange;*/
+}
+
+.CCLogos{
+
+margin-top: 15px;
+
+}
+
+#OTHPayment_Logos{
+	margin-top: -10px;
+	margin-right:0;
+	width:45%;
+	display:none;
+	/*border:1px solid green;*/
+}
+#OTHPayment_Logos img{
+	margin: 0px;
+
+	margin-top:3px;
+	/*height:30px;*/
+}
+
+#OTHPayment_Logos div{
+	margin: 0 0 6px 0;
+
+}
+
+#OTHPayment_Logos hr{
+	display:none;
+}
+
+
+
+
+.W_Last_Done {
+	/*width:260px;*/
+	display:block;
+	width:240px;
+}
+.W_Next{
+	width:90px;
+	border-right:1px solid #6889A1;
+}
+.W_LastToDo{
+	width:auto;
+}
+.W_On{
+
+}
+
+.W_in{
+	overflow:hidden;
+}
+
+#ctl00_ContentPlaceHoldermenu_lblSelectPaymentmode{
+	padding-left:5px;
+	font-weight:bold;	
+	font-size: 16px;
+}
+.W_in li{
+	/*background-color:#426B8A;*/
+	width: 21.5%;
+}
+li.SelectUP{
+	list-style-image:none;
+	background:url(../../images/selectSys_Orange.gif) no-repeat 0 20px;
+	list-style: none inside;
+	line-height: 5px;
+	margin-top: -10px;
+	margin-bottom:10px
+}
+li.SelectPay{
+    list-style-image:none;
+	background:url(../../images/selectSys.gif) no-repeat 0 12px;
+	list-style:none inside;
+}
+#ContentPlaceHolder1_PayByCodeImage img{
+	height:23px;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+

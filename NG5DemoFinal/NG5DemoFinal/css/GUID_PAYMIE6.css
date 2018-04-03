@@ -1,0 +1,49 @@
+
+.W_Last_Done {
+	width:130px;
+}
+.W_Next{
+	width:auto;
+	border-right:1px solid #999999;
+}
+.W_LastToDo{
+	width:160px;
+}
+.W_Done{
+	width:240px;
+	border-right:1px solid #6889A1;
+}
+
+#CC{
+	width: 254px;
+	margin-left:12px;
+}
+#CCMaster, #CCAmex, #CCDiners, #CCAura, #CCJCB, #CCMaestro{
+	margin-left:12px;
+}
+
+.FreezePaneOn, InnerFreezePaneContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:expression(document.body.clientWidth);
+	height:expression(document.body.clientHeight);
+	background-color:#000;
+
+	
+}
+
+.InnerFreezePaneOn{
+	position:relative;
+	margin-left: expression((document.body.clientWidth/2)-250);
+}
+
+.InnerFreezePaneOn h1 
+{
+  font-size:1.5em;
+}
+
+#textPAY1_CVV
+{
+    line-height:1em;   
+}

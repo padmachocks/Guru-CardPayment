@@ -1,0 +1,11 @@
+/*#ctl00_ContentPlaceHolder1_GuidedPayment, #ctl00_ContentPlaceHolder1_PaywithVivo, #ctl00_ContentPlaceHolder1_CCLogos, .OTHPaymentimg, #Wizard, #Logo , #ctl00_ContentPlaceHolder1_HypeBanner1, #ctl00_ContentPlaceHolder1_HypeBanner2 {
+	display: none;
+	visibility:hidden;
+}*/
+#dyf_header, #dyf_spalla, cont_icon_print{
+	display: none;
+	visibility:hidden;
+}
+
+
+

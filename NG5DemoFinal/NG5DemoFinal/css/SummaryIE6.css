@@ -1,0 +1,36 @@
+
+
+.W_Done{
+	width:200px;
+	border-right:1px solid #6889A1;
+}
+
+.Summary_Datas HR{
+display:block;
+margin: -1px;
+}
+
+.Summary_Datas span{
+	width:280px;
+	font-size:.9em;
+}
+
+#ctl00_ContentPlaceHolder1_divMerchantRecipFields{
+	margin:0;
+}
+
+.FreezePaneOn{
+	position:absolute;
+	top:0;
+	left:0;
+	width:expression(document.body.clientWidth);
+	height:expression(document.body.clientHeight);
+	background-color:#000;
+}
+
+.InnerFreezePaneOn{
+	width:330px;
+	left:0;
+	height:32px;
+	margin-left:expression((document.body.clientWidth/2) - 165) ;
+}

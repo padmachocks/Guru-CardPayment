@@ -1,0 +1,132 @@
+/* IDS */
+
+#PaymentTitle{
+	font-weight:bold;
+	font-size: 10px;
+	margin-top:10px;
+	margin-left:-36px;
+	margin-bottom: 10px;
+}
+
+
+#Desc, #Select_Payment{
+	font-size: 10px;
+	text-align:left;
+	margin-left:150px;	
+	width:430px;
+	margin-bottom:15px;
+}
+
+
+#Select_Payment {
+margin-bottom: 20px;
+	
+}
+
+
+#PayWithCode{
+	width:100%;
+	margin-bottom:10px;
+}
+
+#PayWithCode div{
+	float:right;	
+	padding-left: 6px;
+	width: 340px;
+}
+
+#PayWithCode img{
+	float:left;	
+}
+
+#PayWithBankTransfer div{
+	float:right;
+	border:1px solid black;
+	background-color:#fdf8e0;
+	width: 340px;
+	padding:2px;
+
+}
+
+#PayWithBankTransfer img{
+	float:left;
+}
+
+#PayWithBankTransfer {
+	width:100%;
+}
+
+
+#Links {
+	width:400px;
+	margin-left:210px;
+	margin-bottom: 30px;
+}
+
+#Links div {
+	text-align:left;
+	width:350px;
+
+}
+
+A{
+	color:#000;
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:underline;
+}
+/*------------------------*/
+/*Added by SSIL Deveopers*/
+
+.PayWithBankTransfer div{
+	float:right;
+	border:1px solid black;
+	background-color:#fdf8e0;
+	width: 340px;
+	padding:2px;
+
+}
+
+.PayWithBankTransfer img{
+	float:left;
+}
+
+.PayWithBankTransfer {
+	width:100%;
+}
+
+.PayWithCode{
+	width:100%;
+	margin-bottom:10px;
+}
+
+.PayWithCode div{
+	float:right;	
+	padding-left: 6px;
+	width: 340px;
+}
+
+.PayWithCode img{
+	float:left;	
+}
+
+.Select_Payment{
+	font-size: 10px;
+	text-align:left;
+	margin-left:150px;	
+	width:430px;
+	margin-bottom:15px;
+}
+
+#ctl00_ContentPlaceHolder1_PayWithBankTransfer div, #ctl00_ContentPlaceHolder1_divAuthentication,#ctl00_ContentPlaceHolder1_tdBackOfice {
+    width: 340px;
+    float:  right; 
+}
+
+#ctl00_ContentPlaceHolder1_Desc {
+    margin-bottom: 10px;
+}
+
+#ctl00_ContentPlaceHolder1_PayWithBankTransfer a {
+    line-height: 35px;
+}

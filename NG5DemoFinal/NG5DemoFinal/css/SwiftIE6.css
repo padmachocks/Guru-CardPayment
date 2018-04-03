@@ -1,0 +1,35 @@
+/* CSS Document */
+.W_Last_Done{
+	width:250px;
+}
+
+
+.FreezePaneOn, InnerFreezePaneContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:expression(document.body.clientWidth);
+	height:expression(document.body.clientHeight);
+	background-color:#000;	
+}
+
+.InnerFreezePaneOn{
+	position:relative;
+	margin-left: expression((document.body.clientWidth/2)-250);
+}
+
+.InnerFreezePaneOn h1 
+{
+  font-size:1.5em;
+}
+.SelectBoxOn
+    {
+        display:block;
+        visibility:visible;
+    }
+    
+.SelectBoxOff
+    {
+        display:none;
+        visibility:hidden;
+    }

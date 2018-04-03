@@ -1,0 +1,108 @@
+/* IDS */
+
+#PaymentTitle{
+	font-weight:bold;
+	font-size: 12px;
+	margin-top:10px;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+
+
+#PaymentTitle div{
+	color:red;
+	
+}
+
+
+#ActionBox label{
+	font-size: 10px;
+	margin-right: 4px;
+	color:red;
+	font-weight:bold;
+}
+
+#Answer{
+	font-size: 10px;
+	margin-right: 4px;
+	width:20em;
+}
+
+#Desc{
+	font-size:10px;
+
+}
+
+#Alert{
+	border:2px solid red;
+	color:red;
+	font-size:12px;
+
+	font-weight:bold;
+	width:50%;
+	margin-left: 180px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+A {
+	color:black;
+	font-size: 10px;
+	text-decoration:underline;
+	margin-bottom: 60px;
+}
+
+/*------------------------
+Added by SSIL Developers*/
+
+.ActionBox_label{
+	font-size: 10px;
+	margin-right: 4px;
+	color:red;
+	font-weight:bold;
+}
+
+.Answer{
+	font-size: 10px;
+	margin-right: 4px;
+	width:20em;
+}
+
+#PaymentTitlePinPay{
+	font-weight:bold;
+	font-size: 12px;
+	margin-top:10px;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+
+
+#PaymentTitlePinPay div{
+	color:red;
+	
+}
+#DescPinPay{
+	font-size:10px;
+
+}
+
+#PaymentTitleError
+{
+	font-weight:bold;
+	font-size: 12px;
+	margin-top:10px;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+#PaymentTitleError div{
+	color:red;
+	
+}
+
+#DescError{
+	font-size:10px;
+
+}

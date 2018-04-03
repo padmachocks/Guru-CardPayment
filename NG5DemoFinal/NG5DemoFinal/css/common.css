@@ -1,0 +1,486 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+body{
+	font-size: 76%; /*Misura standard per gestione caratteri cross Browser e Platform*/
+	font-family: Verdana,Arial,sans-serif;
+	text-align: center;
+	background: #FFFFFF;
+	color : #000;
+}
+
+hr{
+	clear:both;
+	visibility:hidden;
+	margin:0 0 0 0;
+}
+
+img{
+	border:0;
+}
+
+A {
+	text-decoration:none;
+}
+
+form{
+	margin: 20px 10px 20px 10px;
+
+}
+
+fieldset{
+	/*margin: 20px 0px 20px 0px;*/
+	border:0;
+	margin: 20px 0px 20px 0px;
+	padding: .5em;
+}
+
+
+/*IDS*/
+#Main {
+	width: auto;
+	margin: 1em 1em 1em 1em;
+}
+
+#Wrapper{
+	width:720px;
+	border: 1px solid #003366;
+	margin: 0 auto;
+}
+
+#ActionBox{
+	font-size:12px;
+}
+
+/*new rule added for visually impaired UI Changes */
+#ActionBox h1
+{
+    display:none;
+    visibility:hidden;
+}
+
+#PagamBox {
+	display: block; 
+}
+
+#Logo {
+	display: inline;
+}
+#MerchantLogo {
+	float: left;
+}
+#SellaLogo {
+	float:right;
+}
+
+#SellaLogo img{
+  width:180px;
+  height:40px;
+  margin:10px
+}
+
+#Pinfo{
+	clear: both;
+	background-color:#A0B5C4;
+	color:#2B617B;
+	font-weight:bold;
+	font-size:10px;
+	padding: 5px;
+	
+}
+
+
+
+#Languages, .Languages{
+	/*background-color:#d7dce0;*/
+	width:20%;
+	float:right;
+	margin:5px;
+	
+	}
+#Languages div{
+	/*margin: 5px;*/
+	background-color:#d7dce0;
+	}
+#Flags {
+	padding: 5px;
+	text-align: center;
+	border:0;
+}	
+
+
+
+#Wizard, .Wizard{
+	text-align:left;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-bottom: -5px;
+}
+
+
+#CardImages{
+	
+	vertical-align:bottom;
+	width:33%;
+	margin: 0 auto;
+}
+
+#Plogo {
+display:block;
+text-align:right;
+}
+
+#Buttons{
+	border:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#Buttons input{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+#Intro, .Intro{
+	font-weight:bold;
+	display:block;
+    margin-top:0.5em;
+}
+
+
+
+#W_all, .W_all{
+	margin-left: 0px;
+	padding-left:0px;
+	display:block;
+}
+
+
+#W_all a, .W_all a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+#W_all li, .W_all li{
+	float:left;
+	list-style-image:none;
+	list-style-type:none;
+	list-style-position:inside;
+	background-repeat:no-repeat;
+	background-position: right;
+	height:19px;
+	margin-top:-13px;
+	text-align:center;
+	padding-right:8px;
+	padding-left:2px;
+	padding-top: 3px;
+	margin-left:0;
+	min-width: 120px;
+}
+
+
+
+#W_all li a, .W_all li a{
+	display:block;
+	height:22px;
+	vertical-align:top;
+}
+
+#Privacy{
+	border:0;
+	text-align:center;
+
+}
+
+#Privacy textarea{
+		font-size: 11px;
+}
+
+#Privacy input{
+vertical-align:middle;
+}
+
+/*
+#disclaimer{
+	width:600px;
+	height:8em;
+}*/
+
+#Privacy label{
+	font-size:12px;
+}
+
+#Plogo img {
+vertical-align:middle;
+}
+
+
+#VeriSignSecured {
+/*border:1px solid orange;*/
+float:right;
+margin-top:-68px;
+}
+
+/*CLASSES*/
+.testorosso{
+	font-size:14px;
+	color:red;
+	font-weight:bold;
+	margin: .5em .5em .5em .5em;
+    display:block;
+}
+
+
+
+
+.B_Descri, .B_Descri2, #B_Descri, #B_Descri_2{
+	display: block;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: left;
+	margin-left:37px;
+	width:600px;
+}
+
+
+ .B_Descri2, #B_Descri_2{
+ margin-bottom:15px;
+ 
+ }
+
+.Pvalues{
+	color:black;
+	float: right;
+	text-align:left;
+	width:160px;
+	overflow:hidden;
+	 display: block;
+    float: right;
+    max-width: 150px;
+    text-align: left;
+    width: 150px;
+}
+.PDescription{
+	float:left;
+
+    max-width: 400px;
+    text-align: left;
+    width: 400px;
+}
+
+.W_up{
+	background-color:#6889A1;
+	height:4px;
+}
+
+.W_dwn{
+	background-color:#6889A1;
+	height:4px;	
+}
+
+.W_Last_Done{
+	background-image: url('../../images/W_Done.gif');
+	background-color:#426B8A;
+}
+
+.W_On{
+	background-image: url('../../images/W_On.gif');
+	background-color:#6889A1;
+	font-weight:bold;
+}
+
+.W_Next{
+	background-image: url('../../images/W_Next.gif');
+	background-color:#d7dce0;
+	color:#aaaeb2;
+}
+
+.W_On_Final{
+	/*background-image: url('../images/W_On_Final.gif');*/
+	background-color:#6889A1;
+	font-weight:bold;
+}
+
+.W_LastToDo{
+	background-color:#d7dce0;
+	/*background-image: url('../images/W_LastToDo.gif');*/
+	color:#aaaeb2;
+	
+}
+.W_Done{
+	background-image: url('../../images/W_Last_On.gif');
+	background-color:#426B8A;
+}
+
+.W_Done_Final{
+background-image: url('../../images/W_Done_Final.gif');
+}
+
+.W_in{
+	height:16px;
+	line-height:16px;
+	background-color:#426B8A;
+	/*background-color:#d7dce0;*/
+	color:#FFF;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-left:0;
+	padding-left: 5px;
+	/*font-size: 1.2em;*/
+	font-weight:normal;
+	/*padding-left:.5em;*/
+	overflow:hidden;
+	
+}
+
+.W_First{
+	padding-left:.5em;
+	width:100%;
+	background-color:#426B8A;
+	height:24px;
+	margin-top: -3px;
+	padding-top: 3px;
+	font-weight:bold;
+}
+
+/*Nifty Corners*/
+.b1f, .b2f, .b3f, .b4f{font-size:1px; overflow:hidden; display:block;}
+.b1f {height:1px; background:#d7dce0; margin:0 5px;}
+.b2f {height:1px; background:#d7dce0; margin:0 3px;}
+.b3f {height:1px; background:#d7dce0; margin:0 2px;}
+.b4f {height:2px; background:#d7dce0; margin:0 1px;}
+.contentf {background: #d7dce0;}
+
+
+.CardImages {
+/*border:1px solid grey;*/
+text-align:center;
+}
+
+.MerchantBox{
+	 margin-left: 100px;
+    margin-right: 100px;
+    min-height: 5em;
+}
+
+
+/*.contentf div {margin-left: 5px;}
+*/
+
+
+/*----------------
+Added by : SSIL Developers
+*/
+
+.CC_form{
+	margin: 20px 10px 20px 10px;
+
+}
+.disclaimer{
+	width:675px;
+	height:8em;
+	
+}
+
+.disclaimer_SW {
+    height: 8em;
+    width: 544px;
+}
+
+.PinfoDetail{
+	width:78%;
+	float:left;
+}
+
+.PinfoDetail div{
+	display:block;
+}
+.MerchantLogo {
+	float: left;
+}
+
+#tikann_radio{
+	margin:10px 0px 10px 30px;
+}
+
+#tikann_Wrapper{
+	margin: 30px;
+}
+
+#ContentPlaceHolder1_lblCompulsoryFields, #ctl00_ContentPlaceHolder1_lblCompulsoryFields
+{
+    display:none;
+    visibility:hidden;   
+}
+
+#OldBrowser
+{
+    display:none;
+    visibility:hidden;   
+    }
+    
+.hide{
+    display:none;
+    visibility:hidden;
+}
+
+.hidden 
+{	
+    display:none;
+	visibility:hidden;
+}
+
+/*Error Messages*/
+
+/* Error messages*/ 
+    
+.ErrorMessage{
+    background:none repeat scroll 0 0 #FFFFB4;   
+    border-bottom:1px solid grey;
+    padding-top:1px;
+} 
+
+.ErrorMessage span,  .ErrorMessage div{  	
+    color: red;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+	margin: 0.5em;
+}    
+ 
+#Buttons input {
+ border: 0 none;
+ cursor:pointer;
+ -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+ background:#426b8a;
+ background:-moz-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+ background:-o-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+    background:-ms-linear-gradient( center top, #426b8a 100%, #426b8a 100% );
+    background:linear-gradient(to bottom, #426b8a 100%, #426b8a 100%);
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+ display:inline-block;
+ color:#ffffff;
+    font-family:Helvetica, Arial;
+ font-size:14px;
+ font-weight:normal;
+ text-decoration:none;
+ line-height: 1.4em;
+ padding: 8px 40px;
+}
+#Buttons input:hover {
+    background: #a0b5c4;
+}
+
+.SafeKey{
+ margin-top : 9px;
+} 
+div.CardImages img {
+    height: 35px;
+    margin: 0.5em;
+}    

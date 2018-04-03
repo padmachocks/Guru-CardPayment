@@ -1,0 +1,151 @@
+/*IE6 IE7 common.css modification */
+
+/* IDS */
+
+#Wizard,  .Wizard{
+	clear:both;
+	margin-top:2px;
+	/*font-size:9px;*/
+}
+
+#Wizard hr,  .Wizard hr{
+	display:block;
+}
+
+
+
+#Pinfo hr{
+display:none;
+
+}
+
+
+
+
+#W_all li,  .W_all li {
+margin-top:-4px;
+margin-bottom:-10px;
+padding-left: 12px;
+padding-right:12px;
+/*padding-top:4px;*/
+height:25px;
+}
+
+#W_all A, .W_all a{
+	height:20px;
+	font-size:9px;
+}
+
+#VeriSignSecured{
+	width:20%;
+	float: right;
+	margin-top: -55px;
+
+}
+
+
+
+/* Classes */
+
+.PinfoDetail {
+	/*margin-bottom:-50px;*/
+
+}
+
+
+.PinfoDetail div{
+	display:inline;
+	clear:both;
+
+}
+
+.PinfoDetail hr{
+	display:none;
+}
+
+.W_up{
+	font-size:4px;
+	background-image:none;
+}
+
+.W_dwn{
+	font-size:4px;
+	background-image:none;
+}
+
+
+
+.W_On{
+	/*background-image: url('../../images/W_On.gif');*/
+	background-color:#6889A1;
+	font-weight:bold;
+	height:19px;
+	background-image:none;
+	
+}
+
+
+.W_Last_Done{
+	/*background-image: url('../../images/W_Done.gif');*/
+	background-image:none;
+	width:150px;
+}
+
+.W_Next{
+	/*background-image: url('../../images/W_Next.gif');*/
+	background-image:none;
+	background-color:#d7dce0;
+	color:#aaaeb2;
+}
+
+.W_On_Final{
+	/*background-image: url('../images/W_On_Final.gif');*/
+	background-image:none;
+	background-color:#6889A1;
+	font-weight:bold;
+}
+
+.W_LastToDo{
+	background-color:#d7dce0;
+	/*background-image: url('../images/W_LastToDo.gif');*/
+	background-image:none;
+	color:#aaaeb2;
+	
+}
+.W_Done{
+	/*background-image: url('../../images/W_Last_On.gif');*/
+	background-image:none;
+}
+
+.W_Done_Final{
+/*background-image: url('../../images/W_Done_Final.gif');*/
+background-image:none;
+}
+
+.W_in{
+width:720px;
+height:20px;
+padding-left:0;
+line-height:normal;
+}
+
+.W_First span{
+	padding-top: 3px;
+	font-size:12px;
+}
+
+.W_all li{
+	max-width:auto;
+}
+
+.contentf{
+	height:30px;
+}
+
+#ctl00_ContentPlaceHoldermenu_tdMenuStep1{
+	width:250px;
+}
+
+/* IE6 IE7 sections css modification */
+
+/*   */

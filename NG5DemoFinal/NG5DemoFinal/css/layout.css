@@ -1,0 +1,863 @@
+#DCCFieldset ul, ol, ul {
+    list-style: none;
+}
+
+html, legend {
+    color: #000;
+}
+
+    html, html body {
+        overflow-x: hidden;
+        background: #FFF;
+    }
+
+article header div#header div#dati_riassuntivi dl dt, div#header dl#m dd span {
+    text-transform: uppercase;
+}
+
+article, blockquote, body, code, dd, div, dl, dt, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, hgroup, input, legend, li, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+q:after, q:before {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+html body {
+    height: 100%;
+    min-height: 530px;
+    width: 100%;
+    margin: 0;
+    padding: .6em 0 0;
+    position: relative;
+}
+
+    html body * {
+        font-family: sans-serif;
+        font-size: 100%;
+        -webkit-text-size-adjust: none;
+    }
+
+span.clear {
+    display: block;
+    clear: both;
+    float: none;
+}
+
+article header div#header dl#loghi {
+    height: 35px;
+}
+
+    article header div#header dl#loghi dd {
+        display: inline-block;
+    }
+
+        article header div#header dl#loghi dd a {
+            padding-right: .5em;
+        }
+
+    article header div#header dl#loghi > dd {
+        float: left;
+    }
+
+    article header div#header dl#loghi dd + dd {
+        float: right;
+    }
+
+    article header div#header dl#loghi dd img[alt^=flag], article header div#header dl#loghi dd input[alt^=flag] {
+        height: 28px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+article header div#header div#dati_riassuntivi {
+    padding: 0 2%;
+}
+
+    article header div#header div#dati_riassuntivi dl {
+        width: 48%;
+        display: inline-block;
+        color: #4f5e73;
+    }
+
+        article header div#header div#dati_riassuntivi dl:nth-child(2) {
+            text-align: right;
+            float: right;
+            clear: both;
+        }
+
+        article header div#header div#dati_riassuntivi dl dd {
+            font-weight: bolder;
+        }
+
+div#header div#menu_container {
+    background-image: url(../img/sf_sella_menu.png);
+    margin-top: .8em;
+}
+
+div#header dl#m {
+    width: 96%;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+}
+
+    div#header dl#m dd {
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+
+        div#header dl#m dd div {
+            margin: auto;
+            width: 50px;
+        }
+
+        div#header dl#m dd span {
+            color: #989898;
+            display: block !important;
+            padding-top: 45px;
+            font-size: .6em;
+            text-align: center;
+        }
+
+            div#header dl#m dd span.ok:before {
+                zoom: .5;
+                clip: rect(0,200px,90px,100px);
+                margin-left: -100px;
+                margin-top: -45px;
+                display: block;
+                height: 90px;
+                content: url(../img/sella_menu.png);
+                position: absolute;
+            }
+
+            body#step_1 div#header dl#m dd:nth-child(1) span.menu:before, body#step_1 div#header dl#m dd:nth-child(2) span.menu:before, body#step_1 div#header dl#m dd:nth-child(3) span.menu:before, body#step_1 div#header dl#m dd:nth-child(4) span.menu:before, body#step_2 div#header dl#m dd:nth-child(1) span.menu:before, body#step_2 div#header dl#m dd:nth-child(3) span.menu:before, body#step_2 div#header dl#m dd:nth-child(4) span.menu:before, body#step_3 div#header dl#m dd:nth-child(1) span.menu:before, body#step_3 div#header dl#m dd:nth-child(2) span.menu:before, body#step_3 div#header dl#m dd:nth-child(3) span.menu:before, body#step_3 div#header dl#m dd:nth-child(4) span.menu:before, body#step_4 div#header dl#m dd:nth-child(1) span.menu:before, body#step_4 div#header dl#m dd:nth-child(2) span.menu:before, body#step_4 div#header dl#m dd:nth-child(3) span.menu:before, body#step_4 div#header dl#m dd:nth-child(4) span.menu:before, div#header dl#m dd span.error:before {
+                zoom: .5;
+                margin-top: -90px;
+                display: block;
+                height: 90px;
+                content: url(../img/sella_menu.png);
+                position: absolute;
+            }
+
+            div#header dl#m dd span.error:before {
+                clip: rect(0,100px,90px,00px);
+                margin-left: 00px;
+            }
+
+            body#step_1 div#header dl#m dd:nth-child(1) span, body#step_2 div#header dl#m dd:nth-child(2) span, body#step_3 div#header dl#m dd:nth-child(3) span, body#step_4 div#header dl#m dd:nth-child(4) span, div#header dl#m dd span.error, div#header dl#m dd span.ok {
+                color: #495d75 !important;
+            }
+
+                body#step_1 div#header dl#m dd:nth-child(1) span.menu:before {
+                    clip: rect(0,300px,90px,200px);
+                    margin-left: -200px;
+                }
+
+body#step_1 div#header dl#m dd:nth-child(2) span.menu:before {
+    clip: rect(0,400px,90px,300px);
+    margin-left: -300px;
+}
+
+body#step_1 div#header dl#m dd:nth-child(3) span.menu:before {
+    clip: rect(0,600px,90px,500px);
+    margin-left: -500px;
+}
+
+body#step_1 div#header dl#m dd:nth-child(4) span.menu:before {
+    clip: rect(0,800px,90px,700px);
+    margin-left: -700px;
+}
+
+body#step_2 div#header dl#m dd:nth-child(1) span.menu:before {
+    clip: rect(0,200px,90px,100px);
+    margin-left: -100px;
+}
+
+body#step_2 div#header dl#m dd:nth-child(2) span.menu:before {
+    zoom: .5;
+    clip: rect(0,500px,90px,400px);
+    margin-left: -400px;
+    margin-top: -90px;
+    display: block;
+    height: 90px;
+    content: url(../img/sella_menu.png);
+    position: absolute;
+}
+
+body#step_2 div#header dl#m dd:nth-child(3) span.menu:before {
+    clip: rect(0,600px,90px,500px);
+    margin-left: -500px;
+}
+
+body#step_2 div#header dl#m dd:nth-child(4) span.menu:before {
+    clip: rect(0,800px,90px,700px);
+    margin-left: -700px;
+}
+
+body#step_3 div#header dl#m dd:nth-child(1) span.menu:before, body#step_3 div#header dl#m dd:nth-child(2) span.menu:before {
+    clip: rect(0,200px,90px,100px);
+    margin-left: -100px;
+}
+
+body#step_3 div#header dl#m dd:nth-child(3) span.menu:before {
+    clip: rect(0,700px,90px,600px);
+    margin-left: -600px;
+}
+
+body#step_3 div#header dl#m dd:nth-child(4) span.menu:before {
+    clip: rect(0,800px,90px,700px);
+    margin-left: -700px;
+}
+
+body#step_4 div#header dl#m dd:nth-child(1) span.menu:before, body#step_4 div#header dl#m dd:nth-child(2) span.menu:before, body#step_4 div#header dl#m dd:nth-child(3) span.menu:before {
+    clip: rect(0,200px,90px,100px);
+    margin-left: -100px;
+}
+
+body#step_4 div#header dl#m dd:nth-child(4) span.menu:before {
+    clip: rect(0,900px,90px,800px);
+    margin-left: -800px;
+}
+
+.box, .paypalbox {
+    padding: .5em 2%;
+    margin: .5em auto;
+    width: 90%;
+}
+
+.box {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #c3c7c8;
+}
+
+.paypalbox {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #fba919;
+}
+
+input[type=number]::-webkit-outer-spin-button {
+    display: none;
+}
+
+.input_base, body#step_2 section div#blocco_centrale fieldset textarea {
+    z-index: 9;
+    border: 1px solid #425a74;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: .45em .2em;
+    text-align: left;
+    color: #425a74;
+    font-size: .8em;
+    position: relative;
+    width: 85%;
+}
+
+a.submit, input[type=button], input[type=submit] {
+    cursor: pointer;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: .5em .5em .5em 0;
+    color: #fff;
+    border: 0;
+    padding: 10px 25px 11px;
+    border-radius: 4px;
+    font-weight: 700;
+    background: #e8edeb;
+    -webkit-appearance: none;
+}
+
+input[type=button] {
+    cursor: auto;
+}
+
+    a.submit.button_ok, input[type=button].button_ok, input[type=submit].button_ok {
+        background: #39456b;
+    }
+
+body#step_1 a.submit.button_ok, body#step_1 input.button_ok[type=submit] {
+    background: #97A2B1;
+}
+
+div#footer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+a.info {
+    margin-left: 4px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+    #mask, a.info img, a.info img.error, a.info img.ok {
+        position: absolute;
+    }
+
+    a.info img {
+        clip: rect(0,30px,30px,0);
+        margin-left: 0;
+    }
+
+        a.info img.ok {
+            clip: rect(0,60px,30px,30px);
+            margin-left: -30px;
+        }
+
+        a.info img.error {
+            clip: rect(0,90px,30px,60px);
+            margin-left: -60px;
+        }
+
+        a.info img.no {
+            display: none;
+        }
+
+body#step_1 section div#blocco_centrale dl dd a {
+    color: #FFF;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: .6em .4em;
+    text-align: center;
+}
+
+body#step_1 .box {
+    width: 90%;
+    border: none;
+    background: -moz-linear-gradient(center top,#003b79 0,#003b79 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#003b79),color-stop(100%,#003b79));
+    background: -webkit-linear-gradient(top,#003b79 0,#003b79 100%);
+    background: -o-linear-gradient(top,#003b79 0,#003b79 100%);
+    background: -ms-linear-gradient(top,#003b79 0,#003b79 100%);
+    background: linear-gradient(top,#003b79 0,#003b79 100%);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: .5em auto;
+    padding: .5em 2%;
+}
+
+#ctl00_content_hypMasterPass {
+    line-height: 28px;
+}
+
+#ctl00_content_htpCardpayment {
+    line-height: 34px;
+}
+
+#SellaItLogo {
+    width: 58.5px;
+    height: 35px;
+    margin-left: 3px;
+}
+
+body#step_2 section div#blocco_centrale fieldset dl dd {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+    body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(2) {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+        body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(2) label {
+            text-align: right;
+            display: block;
+            padding-right: 14%;
+        }
+
+    body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) {
+        line-height: 10px;
+    }
+
+        body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span > * {
+            display: inline-block;
+            padding: 0;
+        }
+
+        body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) input {
+            width: 2.8em;
+            float: left;
+            padding: .45em .2em;
+        }
+
+        body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span:nth-child(1) {
+            display: inline-block;
+            float: left;
+        }
+
+        body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span:nth-child(2) {
+            float: right;
+            padding-right: 14%;
+            margin-top: -6px;
+        }
+
+            body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span:nth-child(2) pan:nth-child(2) label {
+                display: block !important;
+            }
+
+            body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span:nth-child(2) select#mese {
+                width: 4em;
+                color: #425A74;
+            }
+
+            body#step_2 section div#blocco_centrale fieldset dl dd:nth-child(3) span:nth-child(2) select#anno {
+                width: 5em;
+                color: #425A74;
+            }
+
+body#step_2 section div#blocco_centrale fieldset label {
+    font-size: .7em;
+}
+
+body#step_2 section div#blocco_centrale fieldset textarea {
+    font-size: .5em;
+    height: 6em;
+    color: #000;
+    overflow-y: scroll;
+    background-color: #fff;
+    margin: .4em auto auto;
+    padding: .2em .5em;
+    text-align: left;
+    margin-bottom: .4 em;
+    width: 96%;
+}
+
+body#step_2 section div#blocco_centrale fieldset label.chk {
+    line-height: 1.8 em;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#boxes .window, #mask {
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+body#step_2 section div#blocco_centrale fieldset label.chk input {
+    background-color: #fff;
+}
+
+#mask {
+    z-index: 9998;
+    background-color: #000;
+}
+
+#boxes .window {
+    position: fixed;
+    width: 90%;
+    margin: 5%;
+    z-index: 9999;
+    padding-top: 16px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+    #boxes .window a, body#pagamerr a {
+        margin-top: 1em;
+        padding-top: 10px;
+        display: block;
+    }
+
+    #boxes .window h1 {
+        margin-bottom: 1em;
+        padding-bottom: 10px;
+        line-height: 1.2em;
+        border-bottom: 2px solid #b6b6b6;
+        font-size: 1.8em;
+    }
+
+    #boxes .window a {
+        line-height: 1.2em;
+        border-top: 2px solid #b6b6b6;
+        color: #b6b6b6;
+        font-size: 1.8em;
+    }
+
+#boxes .window_error h1 {
+    ;
+    border-bottom: 2px solid #bc0c19;
+}
+
+#boxes .window_error a {
+    border-top: 2px solid #bc0c19;
+    color: #fff;
+}
+
+#boxes .window_error {
+    border-color: #bc0c19;
+    background: #fd6162;
+    background: -moz-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fd6162),color-stop(100%,#c7292a));
+    background: -webkit-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -o-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -ms-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: linear-gradient(top,#fd6162 0,#c7292a 100%);
+    color: #fff;
+}
+
+#boxes #info_cvv {
+    border: 2px solid #b6b6b6;
+    background: #f3f3f3;
+    background: -moz-linear-gradient(top,#f3f3f3 0,#dedcdd 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f3f3f3),color-stop(100%,#dedcdd));
+    background: -webkit-linear-gradient(top,#f3f3f3 0,#dedcdd 100%);
+    background: -o-linear-gradient(top,#f3f3f3 0,#dedcdd 100%);
+    background: -ms-linear-gradient(top,#f3f3f3 0,#dedcdd 100%);
+    background: linear-gradient(top,#f3f3f3 0,#dedcdd 100%);
+    color: #b6b6b6;
+}
+
+    #boxes #info_cvv h1 img {
+        padding-right: 1em;
+    }
+
+body#step_3 section#blocco_centrale fieldset dl dt {
+    text-align: left;
+    font-weight: 700;
+    color: #647792;
+    margin-top: .4em;
+    font-size: .8em;
+}
+
+body#step_3 section#blocco_centrale fieldset dl dd {
+    text-align: right;
+    border-bottom: 1px solid #647792;
+    padding-bottom: .4em;
+    font-size: .8em;
+}
+
+    body#step_3 section#blocco_centrale fieldset dl dd:last-child {
+        border: none;
+    }
+
+body#step_4 section#blocco_centrale div section {
+    font-size: .8em;
+    text-align: left;
+}
+
+    body#step_4 section#blocco_centrale div section header h1 {
+        font-weight: 700;
+        color: #647792;
+    }
+
+    body#step_4 section#blocco_centrale div section p {
+        padding-left: 2em;
+        padding-bottom: 1em;
+    }
+
+body#pagamerr {
+    background: #fd6162;
+    background: -moz-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fd6162),color-stop(100%,#c7292a));
+    background: -webkit-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -o-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: -ms-linear-gradient(top,#fd6162 0,#c7292a 100%);
+    background: linear-gradient(top,#fd6162 0,#c7292a 100%);
+    color: #fff;
+}
+
+    body#pagamerr section {
+        padding-top: 16px;
+        border: none;
+        text-align: center;
+    }
+
+        body#pagamerr section#blocco_centrale #ErrDetail {
+            border: 2px solid #BC0C19;
+            margin: 5px;
+            padding: 5px;
+            color: grey;
+            background-color: #FFF;
+        }
+
+        body#pagamerr section#blocco_centrale #ErrorDesc {
+            border-radius: 0;
+            margin: 0;
+        }
+
+        body#pagamerr section#blocco_centrale img.errTriangle {
+            vertical-align: bottom;
+            line-height: 27px;
+            height: 27px;
+            width: 30px;
+        }
+
+#MPASSFOOT, #ctl00_content_chkRememberMe, #imgHype, body#step_1 section div#blocco_centrale a#ctl00_content_lnkIdeal img, body#step_1 section div#blocco_centrale a#ctl00_content_lnkSofort img {
+    vertical-align: middle;
+}
+
+body#pagamerr section#blocco_centrale h1 {
+    font-size: 27px;
+    line-height: 27px;
+}
+
+body#pagamerr section#blocco_centrale hr {
+    height: 2px;
+    border-width: 0;
+    color: #BC0C19;
+    background-color: #BC0C19;
+    width: 50%;
+}
+
+body#pagamerr a {
+    border-top: 2px solid #bc0c19;
+    color: #fff;
+    line-height: 1.2em;
+    font-size: 1.8em;
+}
+
+body#step_1 .Idealbox, body#step_1 .PaymentLogo, body#step_1 .Smart2Pay {
+    background: #e5e5da;
+    border-radius: 10px;
+    margin: .5em auto;
+    overflow: hidden;
+    width: 90%;
+    padding: .5em 2%;
+    max-height: 40px;
+    text-align: center;
+}
+
+    body#step_1 .PaymentLogo img {
+        max-height: 45px;
+        min-height: 30px;
+        margin-top: -8px;
+        max-width: 100px;
+    }
+
+    body#step_1 .Idealbox img, body#step_1 .Smart2Pay img {
+        max-height: 45px;
+        max-width: 100px;
+        margin-top: -9px;
+    }
+
+body#step_1 .Hypebox, body#step_1 .MPassbox {
+    margin: .5em auto;
+    padding-right: 2%;
+    width: 90%;
+}
+
+#lnkCardPayment img {
+    display: inline-block;
+    max-width: 100px;
+    width: 39px;
+    max-height: 30px !important;
+    padding: .2em;
+}
+
+img#MPASimg {
+    max-width: 130px !important;
+    width: 130px !important;
+}
+
+body#step_1 section div#blocco_centrale a#ctl00_content_lnkIdeal {
+    color: #ee800d;
+    text-shadow: 0 1px #424242;
+}
+
+body#step_1 section div#blocco_centrale a#ctl00_content_lnkHype {
+    color: #46ba97;
+    text-shadow: 0 1px #5ed3ac;
+}
+
+body#step_1 .Hypebox {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 2%;
+    line-height: 36px;
+}
+
+body#step_1 .MPassbox {
+    background: #000;
+    background: -moz-linear-gradient(left center,#333 30%,#000 100%);
+    background: -webkit-gradient(linear,left center,right center,color-stop(30%,#333),color-stop(100%,#000));
+    background: -webkit-linear-gradient(left,#333 30%,#000 100%);
+    background: -o-linear-gradient(left,#333 30%,#000 100%);
+    background: -ms-linear-gradient(left,#333 30%,#000 100%);
+    background: linear-gradient(left,#333 30%,#000 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 2%;
+    line-height: 28px;
+}
+
+#MPASSFOOT {
+    background: #F90;
+    background: -moz-linear-gradient(left center,#F90 50%,#C00 100%);
+    background: -webkit-gradient(linear,left center,right center,color-stop(50%,#F90),color-stop(100%,#C00));
+    background: -webkit-linear-gradient(left center,#F90 50%,#C00 100%);
+    background: -o-linear-gradient(left center,#F90 50%,#C00 100%);
+    background: -ms-linear-gradient(left center,#F90 50%,#C00 100%);
+    height: .5em;
+    margin-left: -20px;
+    padding-left: 1em;
+    padding-right: 2.2em;
+    width: 100%;
+}
+
+#MPASimg {
+    margin: -10px 0 -15px !important;
+    padding: 0;
+}
+
+#imgHype {
+    height: 37px;
+    width: 45px;
+}
+
+#PrivacyPolicyBox {
+    display: block;
+    text-align: center;
+}
+
+#Privacy_Policy, #info_HypeHelp {
+    background: #fff;
+}
+
+#ctl00_content_htpCardpayment div {
+    display: inline-block;
+    min-width: 70px;
+    width: 70px;
+}
+
+#ctl00_content_htpCardpayment img {
+    height: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+#RememberCC a {
+    line-height: 30px;
+}
+
+#RememberCC {
+    display: block;
+    min-height: 30px;
+}
+
+#DCCFieldset div {
+    display: block;
+    font-size: .9em;
+    margin: 0 auto;
+    padding: 3px;
+    text-align: left;
+    width: 90%;
+}
+
+    #DCCFieldset div.bold {
+        font-weight: 700;
+    }
+
+#DCCFieldset ul {
+    padding-left: 2.2em;
+}
+
+#DCCFieldset label {
+    margin-left: 10px;
+}
+
+#DCCFieldset input {
+    margin-left: -28px;
+}
+
+#DCCLabel {
+    font-size: 0.9em;
+}
+
+#imgBITCOIN {
+    margin: 0 !important;
+}
+
+#imgMERCADOPAGO {
+    margin: 0 !important;
+}
+
+#step2{
+
+    color: #495d75 !important;
+ z-index: 9;
+    border: 1px solid #425a74;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: .45em .2em;
+    text-align: left;
+    color: #425a74;
+    font-size: .8em;
+    position: relative;
+    width: 85%;
+}

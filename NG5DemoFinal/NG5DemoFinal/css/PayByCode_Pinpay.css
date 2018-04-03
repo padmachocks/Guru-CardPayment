@@ -1,0 +1,21 @@
+/* IDS */
+
+#PaymentTitle{
+	font-weight:bold;
+	font-size: 10px;
+	margin-top:10px;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+
+#ActionBox label{
+	font-size: 10px;
+	margin-right: 4px;
+}
+
+#PinPay{
+	font-size: 10px;
+	margin-right: 4px;
+	width:6em;
+}

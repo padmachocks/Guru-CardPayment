@@ -1,0 +1,110 @@
+/*Elements*/
+
+
+
+/*IDS*/
+#Dup_Title{
+	text-align:center;
+	width:100%;
+}
+
+/*---------- This affects the alignment when we convert it to aspx code ----
+Because we use Label to specify the description which turns to <span> while runtime. 
+So I have removed this 
+*/
+/*#ActionBox span{
+	width:100%;
+	margin: 30px;
+	font-size:.8em;
+	text-align:left;
+}*/
+
+#Summary {
+		/*background:#A0B5C4;*/
+		background: #e0e1e2;
+		text-align:left;
+		font-size: .8em;
+		border: 0px;
+		width:100%;
+		
+		
+		
+}
+
+.Question {
+	color: #FFF;
+	font-weight:bold;
+	background-color:#426B8A;
+	width: 100%;
+	margin:0;
+	text-align:center;
+	height:2em;
+	padding:.4em 0 0 0;
+	margin: .3em 0 .3em 0 ;
+}
+
+
+.Question span{
+	margin:.4em 0 0 0;
+	font-size:1.1em;
+}
+
+
+
+
+/*CLASSES*/
+
+.Data_desc {
+	color:#000;
+	font-weight:bold;
+	width:33%;
+}
+
+.Data_OLDONE {
+	/*background:#D2DFEA;*/
+	background: #f0f2f3;
+	width:33%;
+	
+
+}
+.Data_OLDONE span{
+	
+}
+.Data_NEWONE {
+	/*background:#D2DFEA;*/
+	background: #f0f2f3;
+	width:33%;
+
+}
+
+.W_in {
+	height: 40px;
+	font-weight:bold;
+	font-size: 1.5em;
+	background-color:#426B8A;
+	color:#FFF;
+}
+
+
+
+.W_dwn{
+	height: 2px;
+}
+
+
+.Dup_form fieldset{
+	/*margin: 20px 10px 20px 10px;*/
+	text-align: center;
+}
+
+#ActionBox{
+text-align:left;
+}
+
+.Action_span
+{
+	display: block;
+	width: 99%;
+	padding: 0 .5em 0 .5em;
+	margin:0;
+}

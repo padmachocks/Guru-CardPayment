@@ -1,0 +1,505 @@
+
+
+
+
+/*IDS*/
+#CC_BOX{
+	margin-top:10px;
+}
+
+#CC{
+	background-image:url('../../images/visa.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px;
+}
+
+#CC_Bank{
+	font-weight:bold;
+	font-size: 15px;
+	text-align:left;
+	margin: 15px 10px -25px 10px;
+}
+
+/*
+#CC_FIELD{
+	margin-top: 59px;
+	border:0;
+	display:inline;
+	width:100%;
+	margin-left:-7px;
+}
+
+*/
+
+#CC_Desc1{
+	text-align:left;
+	font-size:10px;
+	margin:0;
+}
+#CC_Desc2{
+	text-align:left;
+	font-size:10px;
+	margin:0;
+}
+
+
+#CC_INFO{
+	float:left;
+	/*font-size: .9em;*/
+	margin-left: 10px;
+	margin-bottom: -30px;
+	/*Added by SSIL Developer*/
+	text-align:justify;
+	width: 430px;
+}
+
+#CC_INFO ul{
+	text-align:left;
+	list-style-type: disc;
+	/*margin-top:-10px;*/
+	/*Added by SSIL Developer*/
+	/*white-space:pre*/
+	width:380px;
+	margin-top:2px;
+}
+
+#ContentPlaceHolder1_textPAY1_CVV { 
+	width: 3em;
+
+}
+
+
+
+
+
+
+/*
+
+#Name_Email, #cvv2{
+	 width:450px;
+	 float:left;
+	 text-align:left;
+	 border:0;
+	 margin:1em .5em 0 1em;
+}
+
+#Name_Email input{
+	width: 200px;
+}
+
+#Name_Email label, #cvv2 label{
+	font-size: 0.9em;
+}
+
+#EmailField{
+	font-size: 1.1em;
+	color:red;
+}
+
+#cvv2 A{
+	color:#000000;
+	text-decoration:underline;
+	font-size:.9em;
+}
+
+#cvv2 input{
+	width: 3em;
+}*/
+
+
+/*CLASSES*/
+.CC_INPUT{
+	width: 3.5em;
+	font-size:13px;
+	margin: 2px;
+	/*margin-bottom:15px;*/
+}
+
+.CC_INPUT_M16{
+	width: 2.5em;
+	font-size:13px;
+	margin: 2px;
+	/*margin-bottom:15px;*/
+}
+
+.CC_EXPFIELDS{
+	width: 85px;
+	float:left;		
+	border:0;
+	/*margin-left:18px;*/
+	margin-top:0;
+	/*margin-top: -18px;*/
+	margin-left: 5px;
+    width: 110px;
+}
+
+.CC_EXPFIELDS input{
+	width: 1.8em;
+	font-size:12px;
+}
+.CC_EXPFIELDS legend{
+	font-size:10px;
+	text-align:center;
+	width:100px;
+}
+
+
+/*--------------
+Added by :SSIL Developers
+*/
+
+.Nameemail_label{
+	
+}
+
+
+
+.EmailField{
+	font-size: 14px;
+	color:red;
+}
+
+.CC_FIELD{
+	margin-top: 59px;
+	border:0;
+	/*display:inline;*/
+	width:100%;
+	margin-left:-7px;
+	margin-bottom:0;
+}
+
+.Name_Email{
+	width:450px;
+	float:left;
+	text-align:left;
+	border:0;
+	margin:-2px .5em 0 1.5em;
+}
+
+.Name_Email A{
+	text-decoration:underline;
+	color:#000000;
+}
+
+ .cvv2
+ {
+ 	width:450px;
+	float:left;
+	text-align:left;
+	border:0;
+	margin:1em .5em -5px 1em;
+
+ }
+.Name_Email input{
+	width: 200px;
+}
+
+
+.Name_Email label{
+	/*font-size: 0.9em;*/
+	margin-bottom:0;
+	display:block;
+}
+
+
+.cvv2 A{
+	color:#000000;
+	text-decoration:underline;
+	/*font-size:.9em;*/
+}
+
+.cvv2 input{
+	width: 3em;
+}
+
+ #CC_INFO span {
+/*white-space:pre;*/
+}
+#CCAmex{
+	background-image:url('../../images/amex.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px; /*Added by : SSIl developer - No margin*/
+}
+#CCDiners{
+	background-image:url('../../images/diners.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px;
+}
+#CCAura{
+	background-image:url('../../images/Aura.gif');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px;
+	background-repeat:no-repeat;
+	border:1px solid grey;
+}
+#CCJCB{
+	background-image:url('../../images/JCB.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px;
+}
+#CCMaster{
+	background-image:url('../../images/mastercard.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:20px;
+}
+#CCMaestro{
+	background-image:url('../../images/mastercard.png');
+	width: 254px;
+	height:165px;
+	float: left;
+	margin-left:2px; /*Added by : SSIl developer - No margin*/
+	color:white;
+}
+.CC_FIELDAmex {
+border:0 none;
+display:inline;
+/*margin-left:-7px;*/
+margin-top:62px;
+width:100%;
+margin-bottom:0;
+}
+.CC_EXPFIELDSAmex {
+border:0 none;
+float:left;
+margin-left:20px;
+margin-top:-5px;
+width:80px;
+}
+
+.CC_EXPFIELDSAmex input,.CC_EXPFIELDSJCB input {
+	width: 1.8em;
+	font-size:14px;
+}
+.CC_EXPFIELDSAmex legend{
+	font-size:10px;
+	text-align:left;
+	margin:0;
+}
+.CC_EXPFIELDSJCB {
+border:0 none;
+float:left;
+margin-left:110px;
+margin-top:0;
+/*width:80px;*/
+}
+
+
+.CC_FIELDJCB {
+border:0 none;
+display:inline;
+margin-left:0px;
+margin-top:64px;
+width:100%;
+margin-bottom:0;
+}
+.CC_FIELDMaster {
+border:0 none;
+display:inline;
+margin-left:-1px;
+margin-top:62px;
+width:100%;
+margin-bottom:0;
+}
+	
+#CCMaster .CC_EXPFIELDS{
+margin:0;
+margin-top:0; 
+margin-left:120px;
+padding: .5em;
+
+}
+
+#ctl00_ContentPlaceHolder1_ctl00_textPAY1_CARDNUMBER{
+	width:15em;
+}
+/*
+#ctl00_ContentPlaceHolder1_ctl00_divCardText{
+	width:0%;
+}
+*/
+.CC_FIELDMaestro {
+border:0 none;
+display:inline;
+/*margin-left:-7px;*/
+margin-top:62px;
+width:100%;
+margin-bottom:0;
+}
+
+.CC_EXPFIELDSMaestro {
+border:0 none;
+float:right;
+margin-left:25px;
+margin-top:0;
+/*margin-top:-35px;*/
+width:80px;
+margin-right:50px;
+}
+
+.CC_EXPFIELDSMaestro input{
+	width: 1.8em;
+	font-size:0.95em;
+}
+.CC_EXPFIELDSMaestro legend{
+	font-size:.8em;
+	text-align:left;
+	margin:0;
+}	
+
+.W_in li{
+	/*background-color:#426B8A;*/
+	width: 18.6%;
+}
+
+
+
+.FreezePaneOff, .InnerFreezePaneContainerOff
+   {
+      visibility: hidden;
+      display: none;
+      position: absolute;
+      top: -100px;
+      left: -100px;
+   }
+
+.FreezePaneOn
+   {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    display: block;
+	background-attachment:scroll;
+	background-color:#999999;
+	background-image:none;
+	background-position:0 0;
+	background-repeat:repeat;
+	opacity:0.5;
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index:1001;
+    width: 100%;
+    height: 150%;   
+    overflow:hidden;
+   }
+
+ .InnerFreezePaneOn
+   {
+    position: relative;
+    margin:auto;
+    visibility: visible;
+    display: block;
+    -moz-background-clip:border;
+	-moz-background-origin:padding;
+	-moz-background-size:auto auto;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+    text-align: left;
+    width: 500px;
+    min-height: 350px;
+	height: auto !important;
+	height: 350px;
+    min-width:500px;
+	text-align: center;
+	padding: .2em 1em .2em 1em;
+	margin: auto;
+	border: 1px solid black;
+	background: #FFF;/**/
+	z-index:1003;
+   }
+
+.tasto {
+background:#FFFFFF none repeat scroll 0%;
+border:1px solid black;
+color:black;
+font-size:12px;
+font-weight:bold;
+padding:2px 5px;
+}
+
+#intro{
+text-align:justify;
+margin-bottom:5px;
+padding:1em;
+}
+
+.descri{
+	float:left;
+	width:300px;
+	text-align:justify;
+	margin: 0 1em 1em 1em;
+}
+
+.img{
+	clear:left;
+}
+
+.InnerFreezePaneOn h3 
+{
+  margin:0;
+  text-align:left;
+}
+
+.InnerFreezePaneOn h2 
+{
+    margin:.2em;
+    text-align:left;
+}
+
+.InnerFreezePaneOn h1 
+{
+    text-align:left;
+}
+
+
+#img_VM img, #img_AMX img
+{
+    width:160px;  
+    margin-top:2px;  
+}
+
+#button{
+    text-align:center;
+    margin: 1em 1em 1em 1em;
+
+}
+
+#Level3 div{
+    margin: .8em .8em .8em .8em;
+}
+
+.InnerFreezePaneOff
+   {
+   		display:none;
+   		visibility:hidden;
+   }
+.InnerFreezePaneContainerOn
+    {
+        display:block;
+        position:absolute;
+        top:35px;
+        left:0;
+        vertical-align:middle;
+        z-index:1002; 
+        width:100%;
+        height:100px;  
+    }
+#ctl00_ContentPlaceHolder1_textPAY1_CVV
+{
+    width:2.4em;
+    }

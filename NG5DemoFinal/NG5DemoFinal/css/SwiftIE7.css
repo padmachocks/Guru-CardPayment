@@ -1,0 +1,67 @@
+
+#CC_Fields{
+	margin-left:0;
+}
+
+
+#Expiry{
+	/*float:right;
+	width:45%;*/
+}
+#UserData_Fields, #cvv2{
+	margin-left:0;
+}
+
+.UserData_Fields, .cvv2{
+	margin-left:0;
+}
+
+
+#PaymentBox{
+	background-color:#FFFFFF;
+}
+.W_in li{
+	/*background-color:#426B8A;*/
+	width: 21.5%;
+}
+
+
+.UserData_Fields HR{
+	display:none;
+}
+
+#ctl00_ContentPlaceHolder1_lblEmail {
+	margin-top:12px;
+}	
+
+#ctl00_ContentPlaceHolder1_idLink
+{
+    line-height: 1em;
+    vertical-align:top;
+    }
+
+
+.UserData_Fields span{
+	display:block;
+}
+
+.InnerFreezePaneOn h3 
+{
+    font-size:1.1em;
+}
+
+.InnerFreezePaneOn h2 
+{
+  font-size:1.2em;
+}
+
+.InnerFreezePaneOn h1 
+{
+  font-size:1.5em;
+}
+
+#RememberMe
+{
+  width:auto;
+  margin-left:0;
+}

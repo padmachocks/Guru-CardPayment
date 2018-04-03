@@ -1,0 +1,35 @@
+﻿@{ 
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/app">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all" />
+    <script src="/node_modules/core-js/client/shim.min.js"></script>
+    <script src="/node_modules/zone.js/dist/zone.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="/systemjs.config.js"></script>
+    <script>
+      System.import('app/main.js').catch(function(err){ console.error(err); });
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/function.js"></script>
+    <script language="javascript" type="text/javascript" src="js/modernizr.js"></script>
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="css/dyf.css" />
+    <link href="css/checkBrowser.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="step_1">
+    <article>
+        <header style="text-align:center">
+            <app-root><img  src="~/Images/loading_circle_corporate.png" /> </app-root>
+            </header>
+        </article>
+</body>
+</html>
+

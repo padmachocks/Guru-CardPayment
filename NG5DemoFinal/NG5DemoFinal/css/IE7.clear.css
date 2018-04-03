@@ -1,0 +1,51 @@
+H1.mute{
+	font-size: 18px;
+	font-weight: bold;		
+}
+
+H2.mute{
+	font-size: 14px !important;
+	font-weight: normal !important;		
+}
+
+#BancaSellaLogo{
+	margin:0;
+	margin-top: 13px;
+}
+
+.dyf_tre_colonne,#ctl00_ContentPlaceHolder1_CCLogos, #ctl00_ContentPlaceHolder1_CCLogos img{
+	cursor:pointer;
+}
+
+div.dyf_btn_next a:hover,div.dyf_btn_next a:visited,div.dyf_btn_next a:active{
+	color:#FFF;
+}
+
+.dyf_cont_input_pagamento_carta, .dyf_cvv_explain{
+	width:auto;
+}
+
+div.dyf_btn_next a:hover, div.dyf_btn_next a:visited, div.dyf_btn_next a{
+	color:#FFFFFF;
+}
+
+div.processStepDone a:hover, div.processStepDone a:visited, div.processStepDone a{
+	color:#333333;
+}
+#ctl00_ContentPlaceHolder1_idLinkRememberMe{
+	vertical-align: middle;
+}
+
+#cookieDisclaimer{
+	margin-top:30px;
+}
+#imgCardLogo{
+	margin-left:10px;
+}
+DIV.dyf_btn_next INPUT{
+	color:#FFFFFF;
+}
+
+input{
+	border:0;
+}

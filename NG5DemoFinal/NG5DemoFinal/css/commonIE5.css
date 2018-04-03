@@ -1,0 +1,47 @@
+/*IE5 common.css modification */
+
+/* IDS */
+
+
+
+#Languages, .Languages{
+	/*background-color:#d7dce0;*/
+	width:15%;
+	float:right;
+	margin:3px;
+	}
+	
+#Languages div{
+	/*margin: 5px;*/
+	background-color:#d7dce0;
+	}
+
+
+
+#W_all li{
+	height:28px;
+}
+
+
+/* Classes */
+
+
+.Pvalues{
+	/*width: 190px; */
+}
+.W_in, .W_up, .W_dwn{
+	width:720px;
+	padding-left:10px;
+
+}
+
+
+.W_in{
+	height:24px;
+}
+
+.CCLogosimg{
+	margin-left: 5px;
+}
+
+

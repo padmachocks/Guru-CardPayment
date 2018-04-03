@@ -1,0 +1,34 @@
+.CCLogos{
+	margin-top: 37px;
+}
+
+.CCLogosimg{
+	margin-left: 5px;
+}
+
+
+
+
+.W_Last_Done {
+	/*width:260px;*/
+	display:inline;
+	width:280px;
+}
+.W_Next{
+	width:145px;
+	border-right:1px solid #6889A1;
+}
+.W_LastToDo{
+	width:145px;
+}
+.W_On{
+
+}
+
+.W_in{
+	overflow:hidden;
+}
+
+.Leave{
+	background: none;
+}

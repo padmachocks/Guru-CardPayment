@@ -1,0 +1,40 @@
+<div>
+    <div>
+        <div>Type of credit card:</div>
+        <div></div>
+        <div>{{card.CardType}}</div>
+    </div>
+    <hr/>
+    <div>
+        <div>Number of credit card:</div>
+        <div></div>
+        <div>{{ card.creditCardNumber }}</div>
+    </div>
+    <hr/>
+    <div>
+        <div>Credit card expiry month/year</div>
+        <div></div>
+        <div>{{card.month}} /  {{card.year}}</div>
+    </div>
+    <hr/>
+    <div>
+        <div>Security code(CVV2 or 4DBC)</div>
+        <div></div>
+        <div>{{card.cvv}}</div>
+    </div>
+    <hr/>
+    <div>
+        <div>Buyer name</div>
+        <div></div>
+        <div>{{card.name}}</div>
+    </div>
+    <hr/>
+    <div>
+        <div>Buyer E-Mail address</div>
+        <div></div>
+        <div>{{card.emailAddress}}</div>
+    </div>
+    <hr/>
+    <button routerLink='/cardpayment'>Back</button>
+    <button routerLink='/receipt'>Submit</button>
+</div>

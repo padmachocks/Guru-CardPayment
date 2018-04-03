@@ -1,0 +1,243 @@
+
+#Print hr{
+	margin-top:-7px;
+}
+
+img{
+	border:0;
+}
+
+A {
+	text-decoration:none;
+}
+
+/*IDS*/
+#Main {
+	width: auto;
+	margin: 1em 1em 1em 1em;
+}
+
+/*#Wrapper{
+	width:570px;
+	border: 1px solid #003366;
+	margin: 0 auto;
+	color:Grey;
+
+	font-size: 10px;
+}
+
+#Logo {
+	display: inline;
+}
+#MerchantLogo {
+	float: left;
+}
+#SellaLogo {
+	float:right;
+}
+
+/*#Flags {
+	padding: 5px;
+	text-align: center;
+	border:0;
+}	
+
+#Languages{
+	background-color:FFF;
+	width:100px;
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	margin-top:0;
+}
+
+#Languages div{
+	background-color:#FFFFFF;
+}
+*/
+
+#Do_Items{
+	display:block;
+	width: 180px;
+	float:right;
+	margin-right: 5px;
+}
+	
+/*#Print{
+	
+	float:left;
+	margin-left:10px;
+}*/
+
+
+
+#Print {
+    float: right;
+    font-size: 10px;
+    font-weight: normal;
+    margin-right: 50px;
+    position: relative;
+}
+.Highlight {
+    color: black;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 500px;
+}
+
+
+
+
+#Desc1, #Desc2{
+	text-align:left;
+	margin: 2px;
+	color:Gray;
+	padding:2px;
+	width:620px;
+	margin: 0 auto;
+}
+
+#ctl00_ContentPlaceHolder1_Desc2 {
+    color: grey;
+    margin: 0 50px;
+    text-align: left;
+}
+
+#ctl00_ContentPlaceHolder1_btnReturn {
+    background-color: Green;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 6px;
+     <!--[if !IE]> -->
+    	-moz-border-radius: 6px;
+    	-webkit-border-radius: 6px;
+  	<!-- <![endif]-->
+}
+
+#Notes {
+    color: grey;
+    margin: 10px auto 30px;
+    text-align: left;
+    width: 620px;
+}
+
+#ctl00_ContentPlaceHolder1_lblEtinote{
+	text-align:left;
+	font-weight:bold;
+	
+}
+
+/*Classes*/
+.Highlight_old{
+	width:100%;
+	font-weight:bold;
+	color:black;
+	margin:15px;
+}
+
+
+#MessNonAddebito {
+	width:620px;
+	text-align:left;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+#ActionBox .Pvalues{
+	float: left;
+	width:50%;
+	text-align:left;
+	color:black;
+	margin-left:25px;
+/*	border:1px solid #2B617B;*/
+	max-width:260px;
+}
+#ActionBox .PDescription{
+	float:left;
+	display:block;
+	width:50%;
+	text-align:left;	
+	color:#2B617B;
+	margin-left: 2px;
+	overflow: hidden;
+/*	border:1px solid orange;*/
+}
+
+.Summary_Datas {
+    border: 1px solid #003366;
+    display: block;
+    /*margin-bottom: 15px;
+    margin-left: 134px;
+    margin-top: 20px;*/
+    margin: 0 auto;
+    padding: 10px;
+    width: 600px;
+}
+
+
+
+/*.contentf{
+	background-color: #FFFFFF;
+}*/
+
+.Close_Button{
+	/*border: 1px solid black;
+	font-size: 12px;
+	color: Black;
+	width:45px;
+	height:28px;
+	vertical-align: middle;
+	padding: 4px;
+	font-weight:bold;
+	background-color:Transparent;*/
+
+}
+#lblstrPrint{
+	margin:0;
+	padding:0;
+	color:grey;
+	margin-top:-6px;
+}
+
+#MessElectron{
+	border:0;
+}
+
+#Print IMG{
+	margin-top:2px;
+}
+
+.Notes {
+    padding-left: 10px;
+    text-align: left;
+}
+
+#ctl00_divFooter
+{ display: none; }
+
+#Buttons input#ctl00_ContentPlaceHolder1_btnReturn{  
+    background: green none repeat scroll 0 0;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+ 
+
+#Buttons input#ctl00_ContentPlaceHolder1_btnReturn:hover{
+    background: green none repeat scroll 0 0;
+}
+#ctl00_ContentPlaceHolder1_HypeBanner1 img, #ctl00_ContentPlaceHolder1_HypeBanner2 img{ width:600px; border:0; margin-top:.5em; margin-bottom:.5em; }
+
+#ctl00_ContentPlaceHolder1_HypeBanner1 a, #ctl00_ContentPlaceHolder1_HypeBanner2 a{ text-decoration:none; border:0; }
+#ctl00_ContentPlaceHolder1_HypeBanner1, #ctl00_ContentPlaceHolder1_HypeBanner2 {margin: 0 auto; width: 600px;}

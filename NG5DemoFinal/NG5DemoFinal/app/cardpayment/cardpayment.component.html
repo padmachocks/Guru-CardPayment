@@ -1,0 +1,38 @@
+
+    <div id="step2">
+        <fieldset class="">
+            <dl>
+                <dd>
+                    <input class="input_base" type="number" [(ngModel)]="card.creditCardNumber" id="creditCardNumber">
+                    <label for="creditCardNumber">Credit Card Number</label>
+                </dd>
+                <dd>
+                    <input class="input_base" type="number" [(ngModel)]="card.cvv" id="cvv">
+                    <label for="cvv">CVV</label>
+                </dd>
+                <dd></dd>
+                <dd>
+                    <label>Expiry Date:</label>
+                </dd>
+                <dd>
+                    <input class="mese" type="number" [(ngModel)]="card.month" id="month">
+                    <label for="month">Month</label>
+                </dd>
+                <dd>
+                    <input type="mese" [(ngModel)]="card.year" id="year">
+                    <label for="year">Year</label>
+                </dd>
+
+                <dd>
+                    <input class="input_base" type="text" [(ngModel)]="card.name" id="name">
+                    <label for="name">Name</label>
+                </dd>
+                <dd class="form-group">
+                    <input class="input_base" type="email" [(ngModel)]="card.emailAddress" id="emailAddress">
+                    <label for="emailAddress">E-mail</label>
+                </dd>
+            </dl>
+            <button routerLink=''>Back</button>
+            <button (click)="saveCard()" routerLink="/datasummary">Next</button>
+        </fieldset>
+    </div>

@@ -1,0 +1,44 @@
+.W_Last_Done {
+	/*width:260px;*/
+	display:inline;
+	width:280px;
+}
+
+.W_Done {
+	/*width:260px;*/
+	display:inline;
+	width:280px;
+}
+
+.W_Next{
+	width:210px;
+	border-right:1px solid #6889A1;
+}
+.W_LastToDo{
+	width:280px;
+}
+
+
+
+.FreezePaneOn
+{
+	height: 105%;
+}
+
+#ctl00_ContentPlaceHolder1_lblIntro{
+	font-weight:normal;
+}
+
+.descri{
+	width: 250px;
+
+}
+
+.InnerFreezePaneOn h1 {
+	font-weight:bold;
+	margin-top: 5px;
+	font-size:2em;
+}
+#ctl00$ContentPlaceHolder1$textPAY1_CVV{
+	width:25px;
+}
